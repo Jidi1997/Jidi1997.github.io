@@ -22,7 +22,12 @@
         </a>
       {% elsif site.enable_navbar_social %}
         <!-- Social Icons -->
-        <div class="navbar-brand social">{% social_links %}</div>
+        <div class="navbar-brand social">
+          {% social_links %}
+          {% if site.data.socials.huggingface %}
+            <a href="{{ site.data.socials.huggingface.url }}" title="Hugging Face"><i class="icon-huggingface"></i></a>
+          {% endif %}
+        </div>
       {% endif %}
       <!-- Navbar Toggle -->
       <button
