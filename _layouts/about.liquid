@@ -36,12 +36,7 @@ layout: default
           {% endif %}
           {% if page.social %}
             <div class="profile-social">
-              <div class="contact-icons">
-                {% social_links %}
-                {% if site.data.socials.huggingface %}
-                  <a href="{{ site.data.socials.huggingface.url }}" title="Hugging Face"><i class="icon-huggingface"></i></a>
-                {% endif %}
-              </div>
+              <div class="contact-icons">{% social_links %}</div>
             </div>
           {% endif %}
         </div>
