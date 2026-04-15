@@ -1,4 +1,4 @@
 User-agent: *
 Disallow:
 
-Sitemap: https://jidi1997.github.io/jidicao.github.io/sitemap.xml
+Sitemap: https://jidi1997.github.io/sitemap.xml
