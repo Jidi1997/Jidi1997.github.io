@@ -1,0 +1,24 @@
+# ============================================================
+# 首页底部社交图标配置（由 jekyll-socials 插件渲染）
+# ============================================================
+
+# 📧 邮件图标
+email: caojidicjd@163.com
+
+# linkedin
+linkedin_username: jidi-cao-b92522192
+
+# 📜 Google Scholar (只需填写 ID)
+scholar_userid: vMY3pmgAAAAJ
+
+# 💻 GitHub 账号名
+github_username: Jidi1997
+
+# 🤗 Hugging Face
+huggingface:
+  logo: icon-huggingface
+  title: Hugging Face
+  url: https://huggingface.co/Jidi1997
+
+# 📡 RSS 订阅（不需要请注释掉）
+# rss_icon: true

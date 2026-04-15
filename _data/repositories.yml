@@ -1,0 +1,16 @@
+# ============================================================
+# GitHub 仓库配置
+
+# github_users: 展示某用户的 GitHub 统计卡（已移除，如需恢复请取消注释并添加用户名）
+# github_repos: 展示具体仓库卡片，格式为 "用户名/仓库名"
+# ============================================================
+
+github_users:
+  - Jidi1997  # 替换为你的 GitHub 用户名
+
+repo_description_lines_max: 2
+
+github_repos:
+  - Jidi1997/academic-auto-reviewer
+  - Jidi1997/mark-lit-down
+  - Jidi1997/check-uncited-references

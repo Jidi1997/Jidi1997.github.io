@@ -1,0 +1,16 @@
+papers:
+  - title: "Deep Learning for Example"
+    authors: "Smith, J., Doe, A."
+    year: 2025
+    venue: "ICLR"
+    url: "https://example.com/paper1"
+    pdf: "/assets/pdf/paper1.pdf"
+    code: "https://github.com/example/code"
+    abstract: "This is an example abstract for the paper."
+
+  - title: "Another Important Work"
+    authors: "Doe, A., Smith, J."
+    year: 2024
+    venue: "NeurIPS"
+    url: "https://example.com/paper2"
+    abstract: "Another abstract here."
