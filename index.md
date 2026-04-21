@@ -25,7 +25,7 @@ social: true # includes social icons at the bottom of the page
 
 <div class="glass-card" markdown="1">
 ### Bio
-👋 Welcome! I am a Ph.D. Candidate in Finance at Sichuan University. I am on the 2026/2027 academic job market and available for interviews.
+👋 Welcome! I am a Ph.D. Candidate in Finance at Sichuan University. I am on the 2026/2027 academic job market and available for interviews ([My CV]({{ '/assets/pdf/2604_Jidi_CV.pdf' | relative_url }})).
 
 🌏 My research interests are corporate governance and sustainability, and I'm enthusiastic about large language models, text analysis, and agentic AI and their use in finance research (see my [personal projects](/repositories/)). 
 
@@ -47,7 +47,7 @@ social: true # includes social icons at the bottom of the page
 **[Silencing the Green Engine: How Shareholder Voice Suppresses Innovation]({{ '/assets/pdf/260415_jidi_manuscript.pdf' | relative_url }})** (_Job market paper_)  
 
 <div style="display: flex; align-items: center; gap: 10px; margin-bottom: 1rem;">
-  <strong>🎧 2-min JMP Overview:</strong>
+  <strong>🎧 2-min audio overview:</strong>
   <audio controls preload="auto" style="height: 30px; width: 200px;">
     <source src="{{ '/assets/audio/jmp_overview.m4a' | relative_url }}" type="audio/mp4">
     Your browser does not support the audio element.
