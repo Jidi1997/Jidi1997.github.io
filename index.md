@@ -44,17 +44,22 @@ social: true # includes social icons at the bottom of the page
 <div class="glass-card" markdown="1">
 ### Working Papers
 
-**[Silencing the Green Engine: How Shareholder Voice Suppresses Innovation]({{ '/assets/pdf/260415_jidi_manuscript.pdf' | relative_url }})** (_Job market paper_)  
+**[Silencing the Green Engine: How Shareholder Voice Suppresses Innovation]({{ '/assets/pdf/2606-esp_manuscript.pdf' | relative_url }})** (_Job market paper_)  
 
 <div style="display: flex; align-items: center; gap: 10px; margin-bottom: 1rem;">
   <strong>🎧 2-min audio overview:</strong>
   <audio controls preload="auto" style="height: 30px; width: 200px;">
-    <source src="{{ '/assets/audio/jmp_overview.m4a' | relative_url }}" type="audio/mp4">
+    <source src="{{ '/assets/audio/26-2min-audio.m4a' | relative_url }}" type="audio/mp4">
     Your browser does not support the audio element.
   </audio>
 </div>
 
-Using a fine-tuned large language model, we demonstrate that environmental shareholder activism escalated to a public proxy vote significantly suppresses corporate green innovation. This unintended decline is driven by agency frictions, specifically the decoupling of environmental incentives and managerial distraction caused by subsequent reputational crises. The suppressive effect is concentrated among targets of disclosure-oriented proposals and firms with short innovation cycles. However, this effect reverses for environmental laggards and during periods of heightened climate concern. Overall, our findings suggest that environmental shareholder voice has real effects that depend critically on whether activism remains private or escalates to a public vote. We also reveal a critical tension in ESG governance and suggest that socially suboptimal underinvestment desire better design and coordination of interventions.  
+This paper shed lights on the real effects of environmental shareholder activism measured through large language model (LLM) approach. 
+We find that environment-related shareholder proposals escalated to a public vote significantly suppresses corporate green innovation and impede firm value. 
+Excessive support levels for such proposals weakens green patenting, while low support promotes that. 
+We then analyze possible mechanisms for the decline, including the dilution of environmental metrics in managerial incentives and heightened incidents following activism. 
+Cross-sectional evidence suggests that the suppressive effect is concentrated among targets of disclosure-oriented proposals and firms with shorter innovation cycles, yet reverses for environmental laggards and during periods of heightened climate sentiment. 
+This paper reveals that public ESG engagement can introduce critical frictions in the form of green underinvestment, highlighting the need for improved design and coordination of stakeholder interventions.
 
 👉[Fine-tuned LLM and trainingset used are available on Hugging Face](https://huggingface.co/Jidi1997/ClimateBERT_GPROP_Detector)
 
@@ -63,7 +68,7 @@ Using a fine-tuned large language model, we demonstrate that environmental share
 **Words of (No-) Action: Regulatory Discretion, and Governance Frictions** (_Work in progress_)  
 With Christian Breitung, and Sebastian Müller
 
-This project employs OCR tools to construct a novel dataset of over 5,300 SEC no-action letters, focusing on the full life cycle of management-contested shareholder proposals. Leveraging LLM-based reasoning and natural language processing, we capture sentiments, legal grounds, and information in the correspondence between proposing shareholders, management, and the SEC staff. 
+How do corporate stakeholders navigate the regulatory mediation of contested governance issues? To investigate this, we introduce a novel dataset of over 5,300 SEC no-action letters that captures the full life cycle of management-contested shareholder proposals. Applying large language models and natural language processing to the unstructured correspondence among sponsoring shareholders, management, and the SEC, we extract rich textual features, including sentiment orientation, legal argumentation strategies, and linguistic patterns. By transforming qualitative negotiations into structured metrics, we provide a granular, previously unavailable window into the private dynamics underlying corporate governance disputes. 
 </div>
 
 
