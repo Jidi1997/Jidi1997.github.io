@@ -54,12 +54,10 @@ social: true # includes social icons at the bottom of the page
   </audio>
 </div>
 
-This paper shed lights on the real effects of environmental shareholder activism measured through large language model (LLM) approach. 
-We find that environment-related shareholder proposals escalated to a public vote significantly suppresses corporate green innovation and impede firm value. 
-Excessive support levels for such proposals weakens green patenting, while low support promotes that. 
-We then analyze possible mechanisms for the decline, including the dilution of environmental metrics in managerial incentives and heightened incidents following activism. 
-Cross-sectional evidence suggests that the suppressive effect is concentrated among targets of disclosure-oriented proposals and firms with shorter innovation cycles, yet reverses for environmental laggards and during periods of heightened climate sentiment. 
-This paper reveals that public ESG engagement can introduce critical frictions in the form of green underinvestment, highlighting the need for improved design and coordination of stakeholder interventions.
+Using a large language model approach to classify environmental shareholder proposals, we find that proposals advancing to a public vote significantly suppress green innovation.
+Evidence from media coverage and executive compensation is consistent with a multitasking mechanism in which activism increases short-term reputational pressures while weakening incentives for long-horizon investment. 
+However, environmental activism successfully promotes innovation for firms with ex ante environmental deficiencies and during periods of acute climate sentiment. 
+Our findings highlight an unintended friction of public ESG engagement in the absence of informed target selection and timing. 
 
 👉[Fine-tuned LLM and trainingset used are available on Hugging Face](https://huggingface.co/Jidi1997/ClimateBERT_GPROP_Detector)
 
