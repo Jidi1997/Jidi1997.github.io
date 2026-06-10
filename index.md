@@ -72,7 +72,7 @@ How do corporate stakeholders navigate the regulatory mediation of contested gov
 
 <div class="glass-card" markdown="1">
 ### Workshops and Conferences
-* Workshop on Corporate Governance in the Era of Climate Change (Guest speaker: Roni Michaely, University of Hong Kong), Sichuan University, co-organizer (Est. April 2026, Chengdu, China)
+* Workshop on Corporate Governance in the Era of Climate Change (Guest speaker: Roni Michaely, University of Hong Kong), Sichuan University, co-organizer (Est. 2026, Chengdu, China)
 * Swedish House of Finance and ECGI Annual Conference on Corporate Governance, participant (August 27–28, 2024, Stockholm, Sweden)
 * The 2nd European Sustainable Finance Ph.D. Workshop, participant (June 18–29, 2024, Augsburg, Germany)
 * ESG Risk Management Framework for the Financial Sector, participant (May 29, 2024, Vienna, Austria)
