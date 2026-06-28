@@ -1680,18 +1680,17 @@ mjx-container[jax="CHTML"][display="true"] {
         }
       }
 
-        .icon-huggingface {
-          display: inline-block;
-          width: 1.7rem;
-          height: 1.7rem;
-          background-image: url('/assets/img/huggingface_color.svg');
-          background-size: contain;
-          background-position: center;
-          background-repeat: no-repeat;
-          vertical-align: middle;
-          transform: translateY(-3px);
-          transition: opacity 0.2s ease-in-out;
-        }
+      .icon-huggingface {
+        display: inline-block;
+        width: 1.7rem;
+        height: 1.7rem;
+        background-image: url('/assets/img/huggingface_color.svg');
+        background-size: contain;
+        background-position: center;
+        background-repeat: no-repeat;
+        vertical-align: middle;
+        transform: translateY(-3px);
+        transition: opacity 0.2s ease-in-out;
       }
     }
   }
