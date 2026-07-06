@@ -25,7 +25,7 @@ social: true # includes social icons at the bottom of the page
 
 <div class="glass-card" markdown="1">
 ### Bio
-👋 Welcome! I am a Ph.D. Candidate in Finance at Sichuan University. I am on the 2026/2027 academic job market and available for interviews ([My CV]({{ '/assets/pdf/2604_Jidi_CV.pdf' | relative_url }})).
+👋 Welcome! I am a Ph.D. Candidate in Finance at Sichuan University. I am on the 2026/2027 academic job market and available for interviews ([My CV]({{ '/assets/pdf/2607_Jidi_CV.pdf' | relative_url }})).
 
 🌏 My research interests are corporate governance and sustainability, and I'm enthusiastic about large language models, text analysis, and agentic AI and their use in finance research (see my [personal projects](/repositories/)). 
 
@@ -44,7 +44,7 @@ social: true # includes social icons at the bottom of the page
 <div class="glass-card" markdown="1">
 ### Working Papers
 
-**[Silencing the Green Engine: How Shareholder Voice Suppresses Innovation]({{ '/assets/pdf/2606-esp_manuscript.pdf' | relative_url }})** (_Job market paper_)  
+**[Silencing the Green Engine: How Shareholder Voice Suppresses Innovation](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=6944718)** (_Job market paper_)  
 
 <div class="custom-audio-wrapper">
   <div class="custom-audio-label">
