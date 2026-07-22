@@ -27,7 +27,7 @@ social: true # includes social icons at the bottom of the page
 ### Bio
 👋 Welcome! I am a Ph.D. Candidate in Finance at Sichuan University. I am on the 2026/2027 academic job market and available for interviews ([My CV]({{ '/assets/pdf/2607_Jidi_CV.pdf' | relative_url }})).
 
-🌏 My research interests are corporate governance and sustainability, and I'm enthusiastic about large language models, text analysis, and agentic AI and their use in finance research (see my [personal projects](/repositories/)). 
+🌏 My research interests are corporate governance and sustainability, and I'm enthusiastic about large language models, text analysis, and agentic AI and their use in research (see my [personal projects](/repositories/)). 
 
 🇩🇪 I was sponsored by the China Scholarship Council (CSC) as a visiting Ph.D student in Finance at TUM School of Management, Technical University of Munich, Germany (2023–2024), under the supervision of Prof. Sebastian Müller, CFA. 
 
