@@ -217,17 +217,17 @@ document.addEventListener("DOMContentLoaded", function() {
 
 Using a large language model to classify environmental shareholder proposals, we find that proposals advancing to a public vote significantly suppress green innovation.
 Evidence from media coverage and executive compensation is consistent with a multitasking mechanism in which activism increases short-term reputational pressures while weakening incentives for long-horizon investment. 
-However, environmental activism successfully promotes innovation for firms with ex ante environmental deficiencies and during periods of acute climate sentiment. 
+However, public activism successfully promotes green innovation for firms with ex ante environmental deficiencies, during periods of heightened climate sentiment, or when sponsored by insititutional investors.   
 Our findings highlight an unintended friction of public ESG engagement in the absence of informed target selection and timing. 
 
 👉[Fine-tuned LLM and trainingset used are available on Hugging Face](https://huggingface.co/Jidi1997/ClimateBERT_GPROP_Detector)
 
 ---
 
-**Words of (No-) Action: Regulatory Discretion, and Governance Frictions** (_Work in progress_)  
-With Christian Breitung, and Sebastian Müller
+**Words of (No-) Action: Regulatory Discretion and Shareholder Voice** (_Work in progress_)  
+With Christian Breitung and Sebastian Müller
 
-We introduce a novel dataset of over 5,300 SEC no-action letters that captures the full life cycle of management-contested shareholder proposals. Applying large language models and natural language processing to the unstructured correspondence among sponsoring shareholders, management, and the SEC, we extract rich textual features, including sentiment orientation, legal argumentation strategies, and linguistic patterns. By transforming qualitative negotiations into structured metrics, we provide a granular, previously unavailable window into the private dynamics underlying corporate governance disputes. 
+Using the setting of SEC Rule 14a-8, we construct a dataset of over 5,300 SEC no-action letters that captures the complete life cycle of management-contested shareholder proposals.We study a selection problem in shareholder proposal disputes, examining the economic trade-offs underlying the SEC's allocation of review effort under capacity constraints within the Rule 14a-8 regime. We develop a retrieval-based architecture and machine learning model to process unstructured correspondence in this multi-party bargaining setting of corporate governance. We aim to provide evidence on how SEC regulatory screening shapes shareholder "voice" and at what cost, with implications for the ongoing policy debate over Rule 14a-8.
 </div>
 
 
