@@ -215,10 +215,7 @@ document.addEventListener("DOMContentLoaded", function() {
 });
 </script>
 
-Using a large language model to classify environmental shareholder proposals, we find that proposals advancing to a public vote significantly suppress green innovation.
-Evidence from media coverage and executive compensation is consistent with a multitasking mechanism in which activism increases short-term reputational pressures while weakening incentives for long-horizon investment. 
-However, public activism successfully promotes green innovation for firms with ex ante environmental deficiencies, during periods of heightened climate sentiment, or when sponsored by insititutional investors.   
-Our findings highlight an unintended friction of public ESG engagement in the absence of informed target selection and timing. 
+Using a large language model to classify environmental shareholder proposals, we find that proposals advancing to a public vote significantly suppress green innovation. The decline is stronger with higher shareholder support and is consistent with a multitask framework in which shareholder pressure weakens incentives for long-horizon environmental investment. Evidence from environmental compensation, incident coverage, and proposal content further reveals how incentives shift. Nevertheless, activism promotes innovation when targeting environmentally deficient firms, during periods of high climate concern, or under institutional sponsorship. Our findings highlight the unintended friction of public ESG engagement in the absence of informed target selection and timing. 
 
 👉[Fine-tuned LLM and trainingset used are available on Hugging Face](https://huggingface.co/Jidi1997/ClimateBERT_GPROP_Detector)
 
