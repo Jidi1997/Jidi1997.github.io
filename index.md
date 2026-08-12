@@ -52,7 +52,7 @@ social: true # includes social icons at the bottom of the page
   </div>
   <div class="custom-audio-player">
     <audio id="jmp-audio" preload="metadata">
-      <source src="{{ '/assets/audio/26-2min-audio.m4a' | relative_url }}" type="audio/mp4">
+      <source src="{{ '/assets/audio/v2-jmp-audio.m4a' | relative_url }}" type="audio/mp4">
       Your browser does not support the audio element.
     </audio>
     
