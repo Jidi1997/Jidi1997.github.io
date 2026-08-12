@@ -1,47 +1,100 @@
-{% assign repo_url = include.repository | split: '/' %}
-{% if site.data.repositories.github_users contains repo_url.first %}
-  {% assign show_owner = false %}
+{% if include.repository.name %}
+  {% assign repo = include.repository %}
 {% else %}
-  {% assign show_owner = true %}
+  {% assign repo = nil %}
+  {% for r in site.data.repositories.github_repos %}
+    {% if r.full_name == include.repository %}
+      {% assign repo = r %}
+      {% break %}
+    {% endif %}
+  {% endfor %}
 {% endif %}
 
-{% assign lang = site.lang | split: '-' | first %}
-
-{% case lang %}
-  {% when 'pt' %}
-    {% assign lang = site.lang %}
-
-  {% when 'zh' %}
-    {% assign lang_last = site.lang | split: '-' | last %}
-    {% case lang_last %}
-      {% when 'cn', 'sg', 'my', 'hans' %}
-        {% assign lang = 'cn' %}
-      {% when 'tw', 'hk', 'mo', 'hant' %}
-        {% assign lang = 'zh-tw' %}
-    {% endcase %}
-
-    {% comment %} Add a new language using when... if needed {% endcomment %}
-    {% comment %} If you still encounter language-display issues, check the available locale codes in github-readme-stats (different from ISO-639 standard used in your website) {% endcomment %}
-    {% comment %} https://github.com/anuraghazra/github-readme-stats?tab=readme-ov-file#available-locales {% endcomment %}
-{% endcase %}
-
-{% if site.data.repositories.repo_description_lines_max %}
-  {% assign max_lines = site.data.repositories.repo_description_lines_max %}
-{% else %}
-  {% assign max_lines = 2 %}
-{% endif %}
-
-<div class="repo p-2 text-center">
-  <a href="https://github.com/{{ include.repository }}">
-    <img
-      class="only-light w-100"
-      alt="{{ include.repository }}"
-      src="{{ site.external_services.github_readme_stats_url }}/api/pin/?username={{ repo_url[0] }}&repo={{ repo_url[1] }}&theme={{ site.repo_theme_light }}&locale={{ lang }}&show_owner={{ show_owner }}&description_lines_count={{ max_lines }}"
-    >
-    <img
-      class="only-dark w-100"
-      alt="{{ include.repository }}"
-      src="{{ site.external_services.github_readme_stats_url }}/api/pin/?username={{ repo_url[0] }}&repo={{ repo_url[1] }}&theme={{ site.repo_theme_dark }}&locale={{ lang }}&show_owner={{ show_owner }}&description_lines_count={{ max_lines }}"
-    >
+{% if repo %}
+<div class="repo p-2 text-start w-100">
+  <a href="{{ repo.html_url }}" target="_blank" rel="noopener noreferrer" style="text-decoration: none; color: inherit;">
+    <div class="custom-repo-card">
+      <div>
+        <div class="repo-title">
+          <svg class="mr-2" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true" fill="currentColor">
+            <path d="M2 2.5A2.5 2.5 0 014.5 0h8.75a.75.75 0 01.75.75v12.5a.75.75 0 01-.75.75h-2.5a.75.75 0 110-1.5h1.75v-2h-8a1 1 0 00-.714 1.7.75.75 0 01-1.072 1.05A2.495 2.495 0 012 11.5v-9zm10.5-1V9h-8c-.356 0-.694.074-1 .208V2.5a1 1 0 011-1h8z"></path>
+          </svg>
+          <span>{{ repo.name }}</span>
+        </div>
+        <p class="repo-description">{{ repo.description }}</p>
+      </div>
+      <div class="repo-meta">
+        <div class="repo-language">
+          {% if repo.language != "" %}
+            <span class="language-color-dot" style="background-color: {{ repo.language_color }};"></span>
+            <span>{{ repo.language }}</span>
+          {% endif %}
+        </div>
+        <div class="repo-stats">
+          {% if repo.stargazers_count > 0 %}
+          <span>
+            <svg viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true" fill="currentColor">
+              <path d="M8 .25a.75.75 0 00-.712.506l-1.54 3.73-4.048.337a.75.75 0 00-.428 1.325l3.057 2.666-.966 3.993a.75.75 0 001.096.837L8 11.66l3.54 2.13a.75.75 0 001.096-.836l-.966-3.993 3.057-2.667a.75.75 0 00-.428-1.325l-4.049-.337-1.54-3.73A.75.75 0 008 .25zm0 2.445l1.094 2.651a.75.75 0 00.594.432l2.88.24-2.176 1.898a.75.75 0 00-.236.724l.69 2.853-2.51-1.51a.75.75 0 00-.73 0l-2.51 1.51.69-2.853a.75.75 0 00-.236-.724L3.436 6.018l2.88-.24a.75.75 0 00.594-.432L8 2.695z"></path>
+            </svg>
+            {{ repo.stargazers_count }}
+          </span>
+          {% endif %}
+          {% if repo.forks_count > 0 %}
+          <span>
+            <svg viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true" fill="currentColor">
+              <path d="M5 3.25a.75.75 0 11-1.5 0 .75.75 0 011.5 0zm0 2.122a2.25 2.25 0 10-1.5 0v4.256a2.251 2.251 0 101.5 0V5.372zm8-.25a.75.75 0 11-1.5 0 .75.75 0 011.5 0zM11.5 7.25a2.25 2.25 0 100 4.5 2.25 2.25 0 000-4.5z"></path>
+            </svg>
+            {{ repo.forks_count }}
+          </span>
+          {% endif %}
+        </div>
+      </div>
+    </div>
   </a>
 </div>
+{% else %}
+  <!-- Fallback to original image-based card -->
+  {% assign repo_url = include.repository | split: '/' %}
+  {% if site.data.repositories.github_users contains repo_url.first %}
+    {% assign show_owner = false %}
+  {% else %}
+    {% assign show_owner = true %}
+  {% endif %}
+
+  {% assign lang = site.lang | split: '-' | first %}
+
+  {% case lang %}
+    {% when 'pt' %}
+      {% assign lang = site.lang %}
+
+    {% when 'zh' %}
+      {% assign lang_last = site.lang | split: '-' | last %}
+      {% case lang_last %}
+        {% when 'cn', 'sg', 'my', 'hans' %}
+          {% assign lang = 'cn' %}
+        {% when 'tw', 'hk', 'mo', 'hant' %}
+          {% assign lang = 'zh-tw' %}
+      {% endcase %}
+  {% endcase %}
+
+  {% if site.data.repositories.repo_description_lines_max %}
+    {% assign max_lines = site.data.repositories.repo_description_lines_max %}
+  {% else %}
+    {% assign max_lines = 2 %}
+  {% endif %}
+
+  <div class="repo p-2 text-center">
+    <a href="https://github.com/{{ include.repository }}">
+      <img
+        class="only-light w-100"
+        alt="{{ include.repository }}"
+        src="{{ site.external_services.github_readme_stats_url }}/api/pin/?username={{ repo_url[0] }}&repo={{ repo_url[1] }}&theme={{ site.repo_theme_light }}&locale={{ lang }}&show_owner={{ show_owner }}&description_lines_count={{ max_lines }}"
+      >
+      <img
+        class="only-dark w-100"
+        alt="{{ include.repository }}"
+        src="{{ site.external_services.github_readme_stats_url }}/api/pin/?username={{ repo_url[0] }}&repo={{ repo_url[1] }}&theme={{ site.repo_theme_dark }}&locale={{ lang }}&show_owner={{ show_owner }}&description_lines_count={{ max_lines }}"
+      >
+    </a>
+  </div>
+{% endif %}

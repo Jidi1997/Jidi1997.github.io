@@ -575,6 +575,86 @@ footer.sticky-bottom {
   }
 }
 
+.custom-repo-card {
+  border: 1px solid var(--global-divider-color);
+  background-color: var(--global-card-bg-color);
+  border-radius: 6px;
+  padding: 1.25rem;
+  transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
+  text-decoration: none;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.05);
+  
+  &:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+    text-decoration: none;
+  }
+  
+  .repo-title {
+    color: var(--global-theme-color);
+    font-weight: 600;
+    margin-bottom: 0.5rem;
+    font-size: 1.05rem;
+    display: flex;
+    align-items: center;
+    
+    a {
+      color: inherit;
+      text-decoration: none;
+      &:hover {
+        color: var(--global-hover-color);
+        text-decoration: none;
+      }
+    }
+  }
+  
+  .repo-description {
+    color: var(--global-text-color);
+    font-size: 0.88rem;
+    line-height: 1.4;
+    margin-bottom: 1rem;
+    font-weight: 300;
+  }
+  
+  .repo-meta {
+    font-size: 0.8rem;
+    color: var(--global-text-color-light);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: auto;
+    
+    .repo-language {
+      display: flex;
+      align-items: center;
+      
+      .language-color-dot {
+        width: 10px;
+        height: 10px;
+        border-radius: 50%;
+        margin-right: 6px;
+        display: inline-block;
+      }
+    }
+    
+    .repo-stats {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      
+      span {
+        display: flex;
+        align-items: center;
+        gap: 4px;
+      }
+    }
+  }
+}
+
 // Blog
 
 .header-bar {

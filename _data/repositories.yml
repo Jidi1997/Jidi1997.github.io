@@ -9,7 +9,35 @@ github_users:
 repo_description_lines_max: 2
 
 github_repos:
-  - Jidi1997/youtube-summary
-  - Jidi1997/mark-lit-down
-  - Jidi1997/academic-auto-reviewer
-  - Jidi1997/check-uncited-references
+  - name: "youtube-summary"
+    full_name: "Jidi1997/youtube-summary"
+    description: "A lightweight AI tool to summarize YouTube video and record in structured Markdown files. "
+    stargazers_count: 0
+    forks_count: 0
+    language: "Python"
+    language_color: "#3572A5"
+    html_url: "https://github.com/Jidi1997/youtube-summary"
+  - name: "mark-lit-down"
+    full_name: "Jidi1997/mark-lit-down"
+    description: "Convert your Zotero library into an LLM-ready Markdown knowledge base."
+    stargazers_count: 0
+    forks_count: 0
+    language: "Python"
+    language_color: "#3572A5"
+    html_url: "https://github.com/Jidi1997/mark-lit-down"
+  - name: "academic-auto-reviewer"
+    full_name: "Jidi1997/academic-auto-reviewer"
+    description: "A Multi-Agent, Zero-Hallucination Academic Review Ecosystem built on local Agentic RAG."
+    stargazers_count: 0
+    forks_count: 0
+    language: "Python"
+    language_color: "#3572A5"
+    html_url: "https://github.com/Jidi1997/academic-auto-reviewer"
+  - name: "check-uncited-references"
+    full_name: "Jidi1997/check-uncited-references"
+    description: "A lightweight Python tool designed for researchers to automatically detect \"ghost references\"—entries listed in your bibliography that are never actually cited in the main body of your document."
+    stargazers_count: 0
+    forks_count: 0
+    language: "Python"
+    language_color: "#3572A5"
+    html_url: "https://github.com/Jidi1997/check-uncited-references"
