@@ -25,7 +25,7 @@ social: true # includes social icons at the bottom of the page
 
 <div class="glass-card" markdown="1">
 ### Bio
-👋 Welcome! I am a Ph.D. Candidate in Finance at Sichuan University. I am on the 2026/2027 academic job market and available for interviews ([My CV]({{ '/assets/pdf/2607_Jidi_CV.pdf' | relative_url }})).
+👋 Welcome! I am a Ph.D. Candidate in Finance at Sichuan University. I am on the 2026/2027 academic job market and available for interviews ([My CV]({{ '/assets/pdf/2-CV-CAO.pdf' | relative_url }})).
 
 🌏 My research interests are corporate governance and sustainability, and I'm enthusiastic about large language models, text analysis, and agentic AI and their use in research (see my [personal projects](/repositories/)). 
 
@@ -224,7 +224,7 @@ Using a large language model to classify environmental shareholder proposals, we
 **Words of (No-) Action: Regulatory Discretion and Shareholder Voice** (_Work in progress_)  
 With Christian Breitung and Sebastian Müller
 
-Using the setting of SEC Rule 14a-8, we construct a dataset of over 5,300 SEC no-action letters that captures the complete life cycle of management-contested shareholder proposals.We study a selection problem in shareholder proposal disputes, examining the economic trade-offs underlying the SEC's allocation of review effort under capacity constraints within the Rule 14a-8 regime. We develop a retrieval-based architecture and machine learning model to process unstructured correspondence in this multi-party bargaining setting of corporate governance. We aim to provide evidence on how SEC regulatory screening shapes shareholder "voice" and at what cost, with implications for the ongoing policy debate over Rule 14a-8.
+Using the setting of SEC Rule 14a-8, we construct a dataset of over 5,300 SEC no-action letters that captures the complete life cycle of management-contested shareholder proposals. We study a selection problem in shareholder proposal disputes, examining the economic trade-offs underlying the SEC's allocation of review effort under capacity constraints within the Rule 14a-8 regime. We develop a retrieval-based architecture and machine learning model to process unstructured correspondence in this multi-party bargaining setting of corporate governance. We aim to provide evidence on how SEC regulatory screening shapes shareholder "voice" and at what cost, with implications for the ongoing policy debate over Rule 14a-8.
 </div>
 
 
