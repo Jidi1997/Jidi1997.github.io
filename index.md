@@ -25,7 +25,7 @@ social: true # includes social icons at the bottom of the page
 
 <div class="glass-card" markdown="1">
 ### Bio
-👋 Welcome! I am a Ph.D. Candidate in Finance at Sichuan University. I am on the 2026/2027 academic job market and available for interviews ([My CV]({{ '/assets/pdf/2-CV-CAO.pdf' | relative_url }})).
+👋 Welcome! I am a Ph.D. Candidate in Finance at Sichuan University. I am on the 2026/2027 academic job market and available for interviews ([My CV]({{ '/assets/pdf/2-CV-CAO.pdf' | relative_url }}?v=20261028)).
 
 🌏 My research interests are corporate governance and sustainability, and I'm enthusiastic about large language models, text analysis, and agentic AI and their use in research (see my [personal projects](/repositories/)). 
 
