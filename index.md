@@ -230,6 +230,7 @@ Using the setting of SEC Rule 14a-8, we construct a dataset of over 5,300 SEC no
 
 <div class="glass-card" markdown="1">
 ### Workshops and Conferences
+* The 4th HKU Governance and Sustainability Conference, participant (October 23, 2026, Hong Kong, China)
 * Workshop on Corporate Governance in the Era of Climate Change (Guest speaker: Roni Michaely, University of Hong Kong), Sichuan University, co-organizer (Est. 2026, Chengdu, China)
 * Swedish House of Finance and ECGI Annual Conference on Corporate Governance, participant (August 27–28, 2024, Stockholm, Sweden)
 * The 2nd European Sustainable Finance Ph.D. Workshop, participant (June 18–29, 2024, Augsburg, Germany)
