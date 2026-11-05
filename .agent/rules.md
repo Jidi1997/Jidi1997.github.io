@@ -14,3 +14,10 @@
 - **CSS:** 优先使用纯 CSS 或极简框架，保持学术严肃感。
 - **布局:** 必须包含：Bio (Home), Publications, Research, Teaching, 和 Blog。
 - **自动化:** 自动将 `_posts` 中的最新 3 篇文章同步到首页。
+
+
+## 4. 分支架构与部署规则 (Branch Architecture & Deployment Rules)
+- **分支双轨制：** `main` 分支存储 Jekyll 源代码（Markdown / Liquid / BibTeX）；`gh-pages` 分支存储预渲染静态文件（HTML / CSS / JS / PDF），供 GitHub Pages 直接托管。
+- **部署验证：** 推送至 `main` 后若自动化 Actions 失败或环境不兼容，不得假设线上已生效。应直接同步静态构建产物至 `gh-pages` 并推送，随后访问生产 URL 验证生效。
+- **Token 权限边界：** 本地 Git 配置的 Personal Access Token 缺少 `workflow` 作用域，严禁通过该凭证推送修改 `.github/workflows/` 下的工作流文件。
+- **论文与简历对齐：** `_bibliography/papers.bib` 与 Publications 页面必须与最新官方简历 PDF (`assets/pdf/2-CV-CAO.pdf`) 严格保持一致，不得保留未列入 CV 的其他文章。
