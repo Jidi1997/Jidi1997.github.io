@@ -215,7 +215,7 @@ document.addEventListener("DOMContentLoaded", function() {
 });
 </script>
 
-Using a large language model to classify environmental shareholder proposals, we find that proposals advancing to a public vote significantly suppress green innovation. The decline is stronger with higher shareholder support and is consistent with a multitask framework in which shareholder pressure weakens incentives for long-horizon environmental investment. Evidence from environmental compensation, incident coverage, and proposal content further reveals how incentives shift. Nevertheless, activism promotes innovation when targeting environmentally deficient firms, during periods of high climate concern, or under institutional sponsorship. Our findings highlight the unintended friction of public ESG engagement in the absence of informed target selection and timing. 
+Using a large language model to classify environmental shareholder proposals, we find that proposals advancing to a public vote significantly suppress green innovation. The decline is stronger with higher shareholder support and concentrated in shareholders' disclosure demands. We provide compensation and reputation channels to reveal how shareholder pressure alters incentives for long-horizon environmental investment. Nevertheless, activism instead promotes innovation among environmentally laggards, during climate-concerned periods, or under institutional sponsorship. Our findings highlight the unintended friction of public ESG engagement in the absence of informed target selection and timing. 
 
 👉[Fine-tuned LLM and trainingset used are available on Hugging Face](https://huggingface.co/Jidi1997/ClimateBERT_GPROP_Detector)
 
@@ -224,7 +224,9 @@ Using a large language model to classify environmental shareholder proposals, we
 **Words of (No-) Action: Regulatory Discretion and Shareholder Voice** (_Work in progress_)  
 With Christian Breitung and Sebastian Müller
 
-Using the setting of SEC Rule 14a-8, we construct a dataset of over 5,300 SEC no-action letters that captures the complete life cycle of management-contested shareholder proposals. We study a selection problem in shareholder proposal disputes, examining the economic trade-offs underlying the SEC's allocation of review effort under capacity constraints within the Rule 14a-8 regime. We develop a retrieval-based architecture and machine learning model to process unstructured correspondence in this multi-party bargaining setting of corporate governance. We aim to provide evidence on how SEC regulatory screening shapes shareholder "voice" and at what cost, with implications for the ongoing policy debate over Rule 14a-8.
+We investigate how the SEC allocates review effort and exercises regulatory discretion in determining shareholder proposals' access to the proxy ballot. The project introduces two innovations. First, we construct a hand-collected dataset of more than 5,300 SEC no-action letter correspondences and apply NLP methods to analyze shareholders' demands for corporate change, firms' arguments for proposal exclusion, and the SEC's responses to these competing claims. Second, we build a novel citation network comprising 16,017 historical SEC precedent nodes and 99,219 directed citation ties. Drawing on network-based measures, including in-degree centrality, co-citation, and PageRank, we examine how shareholders and firms strategically invoke, analogize, and distinguish prior rulings to support their arguments in ballot-access disputes.
+
+{% include figure.liquid loading="lazy" path="assets/img/sec_nal_precedent_citation_network.png" class="img-fluid rounded z-depth-1" width="100%" zoomable=true alt="SEC NAL precedent citation network" caption="SEC NAL precedent citation network" %}
 </div>
 
 
