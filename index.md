@@ -226,7 +226,7 @@ With Christian Breitung and Sebastian Müller
 
 We investigate how the SEC allocates review effort and exercises regulatory discretion in determining shareholder proposals' access to the proxy ballot. The project introduces two innovations. First, we construct a hand-collected dataset of more than 5,300 SEC no-action letter correspondences and apply NLP methods to analyze shareholders' demands for corporate change, firms' arguments for proposal exclusion, and the SEC's responses to these competing claims. Second, we build a novel citation network comprising 16,017 historical SEC precedent nodes and 99,219 directed citation ties. Drawing on network-based measures, including in-degree centrality, co-citation, and PageRank, we examine how shareholders and firms strategically invoke, analogize, and distinguish prior rulings to support their arguments in ballot-access disputes.
 
-{% include figure.liquid loading="lazy" path="assets/img/sec_nal_precedent_citation_network.png" class="img-fluid rounded z-depth-1" width="100%" zoomable=true alt="SEC NAL precedent citation network" caption="SEC NAL precedent citation network" %}
+{% include figure.liquid loading="lazy" path="assets/img/sec_nal_precedent_citation_network.png" class="img-fluid rounded z-depth-1" width="100%" zoomable=true avoid_scaling=true alt="SEC NAL precedent citation network" caption="SEC NAL precedent citation network" %}
 </div>
 
 
