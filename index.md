@@ -44,7 +44,7 @@ social: true # includes social icons at the bottom of the page
 <div class="glass-card" markdown="1">
 ### Working Papers
 
-**[Silencing the Green Engine: How Shareholder Voice Suppresses Innovation](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=6944718)** (_Job market paper_)  
+**No.1: [Silencing the Green Engine: How Shareholder Voice Suppresses Innovation](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=6944718)** (_Job market paper_)  
 
 <div class="custom-audio-wrapper">
   <div class="custom-audio-label">
@@ -221,7 +221,7 @@ Using a large language model to classify environmental shareholder proposals, we
 
 ---
 
-**Words of (No-) Action: Regulatory Discretion and Shareholder Voice** (_Work in progress_)  
+**No.2: Words of (No-) Action: Regulatory Discretion and Shareholder Voice** (_Work in progress_)  
 With Christian Breitung and Sebastian Müller
 
 We investigate how the SEC allocates review effort and exercises regulatory discretion in determining shareholder proposals' access to the proxy ballot. The project introduces two innovations. First, we construct a hand-collected dataset of more than 5,300 SEC no-action letter correspondences and apply NLP methods to analyze shareholders' demands for corporate change, firms' arguments for proposal exclusion, and the SEC's responses to these competing claims. Second, we build a novel citation network comprising 16,017 historical SEC precedent nodes and 99,219 directed citation ties. Drawing on network-based measures, including in-degree centrality, co-citation, and PageRank, we examine how shareholders and firms strategically invoke, analogize, and distinguish prior rulings to support their arguments in ballot-access disputes.

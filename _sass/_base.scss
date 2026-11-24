@@ -1670,6 +1670,15 @@ mjx-container[jax="CHTML"][display="true"] {
   margin-bottom: 1.25rem;
 }
 
+// Medium zoom overlay & image z-index fix for glass cards
+.medium-zoom-overlay {
+  z-index: 99998 !important;
+}
+
+.medium-zoom-image--opened {
+  z-index: 99999 !important;
+}
+
 .glass-card ul,
 .glass-card ol {
   margin-bottom: 1.25rem;
